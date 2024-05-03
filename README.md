@@ -96,3 +96,42 @@ p{
 </html>
 ```
 
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>explaination of class and id</title>
+
+		<style type="text/css">
+			#section1{
+			background-color:lightblue;
+			}
+			#section1 h1{
+			color:green;
+			}
+			#section1 p{
+			color:lightpink;
+			}
+			.style1{
+			color:blue;
+			}
+			.style2{
+			font-size:70;
+			}
+		</style>
+		</head>
+		<body>
+			<div id="section1">
+				<h1> heading </h1>
+				<p> this is inside headin paragraph</p>
+			</div>			
+			</br>
+			<div class="style1 style2">
+				<h1> heading </h1>
+				<p> this is inside headin paragraph</p>
+			</div>
+		</body>
+</html>
+```
+<img src="./images/explainclassid.png"/>
