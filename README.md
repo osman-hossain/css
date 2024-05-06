@@ -412,3 +412,164 @@ span{
 ```
 <img src="./images/border.png"/>
 
+### box model
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box</title>
+    <style>
+        body{
+            background-color:grey;
+        }
+        .container1{
+            background-color:lightblue;
+            width:10px;
+            padding:5px;
+            border: 1px solid black;
+            margin-top:5px;
+            margin-left:5px;
+            float:left;
+        }
+        P{
+            margin:15px;
+        }
+        .container2{
+            background-color:lightgreen;
+            width:10px;
+            padding:5px;
+            border:1px solid black;
+            margin-top:5px;
+            float:left;
+        }
+        .container3{
+            background-color:lightsalmon;
+            width:10px;
+            padding:5px;
+            border:1px solid black;
+            margin-top:5px;
+            float:left;
+        }
+        .container4{
+            background-color:lightyellow;
+            width:10px;
+            padding:5px;
+            border:1px solid black;
+            margin-top:5px;
+            float:left;
+        }
+        .container5{
+            background-color:lightskyblue;
+            width:10px;
+            padding:5px;
+            border:1px solid black;
+            margin-top:-2px;
+            margin-left:5px;
+            float:left;
+        }
+        .container6{
+            background-color:lightcoral;
+            width:10px;
+            padding:5px;
+            border:1px solid black;
+            margin-top:-2px;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+
+    </div>
+    <div class="container2">
+
+    </div>
+    <div class="container3">
+
+    </div>
+    <div class="container4">
+
+    </div> </br>
+    <div class="container5">
+
+    </div>
+    <div class="container6">
+
+    </div>
+    
+</body>
+</html>
+```
+<img src="./images/boxmodel.png"/>
+
+### float go down lin right
+
+```html
+<style>
+.left{
+	float:left;
+}
+.go-down{
+	clear:both;
+}
+</style>
+<body>
+	<div class="left">
+	</div>
+	<div class="go-down">
+	</div>
+</body>
+```
+### inline
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> </title>
+		<link rel="stylesheet" href="stylen.css">
+	</head>
+	<body>
+		<h1> This is paragraph one </h1>
+		<h2> This is paragraph two </h2>
+		<div> This is inside div </div>
+		</br>
+		<div>
+			<span>this is span 1</span>
+			<span>this is span 2</span>
+			<span>this is span 3</span>
+		</div>
+		</br>
+		</br>
+		<div class="en">
+			Bangladesh is renowned for its mouthwatering cuisine, from spicy curries to delectable sweets,tantalizing taste buds across the globe.
+		</div>
+		</br>
+		</br>
+				<div class="en1">
+			Bangladesh is renowned for its mouthwatering cuisine, from spicy curries to delectable sweets,tantalizing taste buds across the globe.
+		</div>
+	</body>
+</html>
+```
+```css
+h1,div{
+background-color:lightblue;
+display:inline;
+}
+.en{
+	width:600px;
+	margin auto;
+	border:3px solid black;
+}
+.en1{
+	max-width:600px;
+	margin auto;
+	border:3px solid green;
+}
+```
+<img src="./images/inline.png"/>
